@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    <UserSecretsId>a2b1f379-2319-4233-afe2-bbe6a7aac1e5</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>.</DockerfileContext>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="GraphQL" Version="2.4.0" />
+    <PackageReference Include="GraphQL.Server.Transports.AspNetCore" Version="3.4.0" />
+    <PackageReference Include="GraphQL.Server.Ui.Playground" Version="3.4.0" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.7.12" />
+  </ItemGroup>
+
+</Project>
